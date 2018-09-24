@@ -1,14 +1,12 @@
-#include<iostream>
-using namespace std;
-int sum(int x, int y)
-{int z;
-z=x+y;
-return z;      
-}
-int main(void)
-{int a, b ,c;    
- a=4;b=6;
- c=sum(a,b);
- cout<<c<<'\n';
- return 0; 
+#include <stdio.h>
+int main() 
+{
+	int shuzi1=0;
+	printf("请输入第一个数字");
+	scanf("%d",&shuzi1);
+	int shuzi2=0;
+	printf("请输入第二个数字");
+	scanf("%d",&shuzi2);
+	int change=shuzi1+shuzi2;
+	printf("两个数字相加的结果=%d\n",change);
 }
