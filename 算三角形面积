@@ -1,0 +1,14 @@
+#include <iostream>
+#include<math.h>
+#include<iomanip>
+using namespace std;
+int main()
+{//设a, b, c为3条边长，s=(a+b+c)/2，面积:Area =sqrt( s* (s-a) * (s-b)*(s-c))，要求保留两位小数。
+    int a,b,c;
+    double s,Area;
+    cin>>a>>b>>c;
+    s=(a+b+c)/2;
+    Area=sqrt( s* (s-a) * (s-b)*(s-c));
+    cout<<fixed<<setprecision(2)<<s<<" "<<Area;
+
+}
