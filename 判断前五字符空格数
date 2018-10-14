@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int count=0;
+	char c;
+	for(int i=0;i<5;i++)
+	{cin.get(c);
+	   if(c==' ')
+		count++;
+
+	}
+cout<<"前五个字符中空格数目为："<<count<<endl;
+	}
+
